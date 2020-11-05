@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><style>
+    lable{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Search User Using Github API </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body style=" background-image: url('https://forkdrop.io/images/article/github-banner@0,5x.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}">
+    <div class="container">
+        <br><br>
+       <h1 style="text-align: center;">Github search user App</h1>
+       <form id="myForm" autocomplete="off">
+           <div class="from-group">
+               <input type="text" class="form-control" id="search"  placeholder="enter username" required>
+           </div>
+           <div class="form-group"><br>
+               <button class="btn btn-danger btn-block" style ="target=_blank" >Serach user</button>
+           </div>
+       </form>
+       <div id="result"></div>
+   </div>
+</body>
+<script src="script.js" ></script>
+</html>
